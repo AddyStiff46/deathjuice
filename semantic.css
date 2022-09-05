@@ -1,0 +1,103 @@
+.navbar {
+    /* background-color: #a3b2c7; */
+    /* background-image: url(/augustine-wong-li0iC0rjvvg-unsplash.jpg); */
+    /* background-blend-mode: multiply; */
+    color: whitesmoke;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 2%;
+}
+
+.title {
+    /* background-color: blueviolet; */
+    margin-left: 10px;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+
+}
+
+nav a.item {
+    /* background-color: aquamarine; */
+    /* align-self: flex-end; */
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    padding: 5px 10px;
+    transition: all;
+    transition-duration: 0.25s;
+}
+
+a.item:hover {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: white;
+    transform: scale(5);
+    color: black;
+    transition: all;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+
+
+
+
+header{
+    padding: 5vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+header h1 {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    justify-self: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+
+
+.rotate{
+    height: auto;
+    width: 5vw;
+    transition: all 0.5s;
+    transition-duration: 0.5s;
+    transform: rotateY(0deg);
+}
+.rotate .image .img{
+    display: block;
+    height: auto;
+    width: 5vw;
+
+}
+.rotate:hover .image{
+    transition: all;
+    transition-duration: 0.5s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+
+
+header p span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+body{
+    background-color: #444;
+    background-image: url(/jon-butterworth-rXjSnBx8Kuc-unsplash.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+}
