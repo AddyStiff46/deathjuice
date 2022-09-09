@@ -96,7 +96,7 @@ header p span{
 }
 body{
     background-color: #444;
-    background-image: url(/jon-butterworth-rXjSnBx8Kuc-unsplash.jpg);
+    background-image: url(/deathjuice/jon-butterworth-rXjSnBx8Kuc-unsplash.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
@@ -107,4 +107,46 @@ section {
     text-align: center;
     padding: 5vh;
     font-family: 'Libre Baskerville', ser if;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.roll {
+    color:whitesmoke;
+    font-family: 'Libre Baskerville', ser if;
+
+}
+
+button {
+    background-color: #630710;
+    border: none;
+    border-radius: 25px;
+    transition: all;
+    transition-duration: 0.25s;
+}
+button:hover {
+    transition: all;
+    transition-duration: 0.25s;
+    transform: scale(2);
+    background-color: whitesmoke;
+    color: #444;
+}
+
+button:hover .roll {
+    color: #444;
+}
+
+button:hover span {
+    color: #960312;
+}
+
+a {
+    text-decoration: none;
 }
